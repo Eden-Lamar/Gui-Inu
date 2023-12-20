@@ -73,12 +73,12 @@ return (
 			
 		</div>
 
-		<div className="w-4/5 flex flex-col items-center my-auto sm:my-0">
-			<div className="w-4/5 sm:w-2/6 mt-8 sm:mt-24">
+		<div className="w-4/5 flex flex-col items-center my-auto sm:my-0 border-2">
+			<div className="w-4/5 sm:w-2/6 lg:1/2 mt-8 sm:mt-24 border-2 flex justify-center">
 				<img src={headerLogo} alt="headerLogo" />
 			</div>
 
-			<div className="w-full sm:w-4/5 h-60 mt-3 text-center" >
+			<div className="w-full sm:w-4/5 h-60 mt-3 text-center border-2" >
 				<h1 className="font-black text-4xl h2-color" >WHAT IS DEAD CANNOT DIE</h1>
 				<p className="header-p font-normal mt-4	text-2xl p-color">Welcome to the realm of Gui Inu, Where Legends <br />transcend and echo in eternity</p>
 				<a href="https://t.me/redactedaptos" target="_blank" rel="noopener noreferrer"><button className="button mt-4 font-semibold">Join Us</button></a>

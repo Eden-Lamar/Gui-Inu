@@ -2,10 +2,10 @@
 // import viteLogo from '/vite.svg'
 import { useEffect, useState } from 'react';
 import { animateScroll as scroll } from "react-scroll";
-import HeroBackgroundImg from "./assets/HeroBackground.svg";
-import headerLogo from "./assets/HeaderLogo.svg";
-import Background from "./assets/Background.svg";
-import Coin from "./assets/Coin.svg";
+import HeroBackgroundImg from "./assets/HeroBackground.png";
+import headerLogo from "./assets/HeaderLogo.png";
+import Background from "./assets/Background.png";
+import Coin from "./assets/Coin.png";
 import icon1 from "./assets/icon1.svg";
 import icon2 from "./assets/icon2.svg";
 import Dog from "./assets/Dog.svg";
