@@ -81,7 +81,7 @@ return (
 			<div className="w-full sm:w-4/5 h-60 mt-3 text-center" >
 				<h1 className="font-black text-4xl h2-color" >WHAT IS DEAD CANNOT DIE</h1>
 				<p className="header-p font-normal mt-4	text-2xl p-color">Welcome to the realm of Gui Inu, Where Legends <br />transcend and echo in eternity</p>
-				<button className="button mt-4 font-semibold"><a href="https://t.me/redactedaptos" target="_blank" rel="noopener noreferrer">Join Us</a></button>
+				<a href="https://t.me/redactedaptos" target="_blank" rel="noopener noreferrer"><button className="button mt-4 font-semibold">Join Us</button></a>
 			</div>
 			
 		</div> 

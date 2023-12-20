@@ -36,7 +36,7 @@ export default function AboutSection ({Coin, icon1, icon2, backgroundStyle}) {
 		<div className="first p-2 sm:p-1 min-h-fit w-1/2 lg:w-1/4 text-left sm:text-left my-auto sm:my-4">
 		<h2 className="h2-color font-semibold text-2xl"> JOIN THE RESURGENCE</h2>
 		<p className="paragraph-color mt-2 font-normal text-base">We rise above the digital realm, breaking the chains of conventional crypto. </p>
-		<button className="btn my-4 font-thin"><p><a href="https://t.me/redactedaptos" target="_blank" rel="noopener noreferrer">Join Us</a></p></button>
+		<a href="https://t.me/redactedaptos" target="_blank" rel="noopener noreferrer"><button className="btn my-4 font-thin"><p>Join Us</p></button></a>
 		</div>
 
     <div className="card w-1/2 flex flex-col lg:w-1/5 sm:py-2 flex lg:flex-row justify-around items-center">
