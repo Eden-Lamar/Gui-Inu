@@ -1,0 +1,282 @@
+h1, h2, .btn>p{
+  font-family: 'Montserrat Alternates';
+}
+
+.header-p, p, .paragraph-color, ul{
+  font-family: 'DM Sans';
+}
+
+.button {
+  background: linear-gradient(
+      180deg,
+      #4eaa99 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(0deg, #18947E, #18947E),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(15, 174, 150, 0.2) 71.35%
+    );
+  color: #f4f4f4;
+  height: 3.5em; /* Adjust the height using em units */
+  width: 100%; /* Make the width 100% for responsiveness */
+  max-width: 200px; /* Set a max-width to prevent it from becoming too wide on large screens */
+  border: 1px solid #18947E;
+  border-radius: 8px;
+  margin: 5px 0;
+
+  /* Optional: Add padding for better visual appearance */
+  padding: 0.5em 1em;
+
+  font-family: 'Montserrat Alternates';
+
+}
+
+
+.button:hover {
+  background: linear-gradient(
+    170deg,
+    #4eaa99 0%, /* Adjust the glowing color on hover */
+    rgba(255, 255, 255, 0) 100%
+  ),
+  linear-gradient(0deg, #18947E, #18947E),
+  linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(18, 128, 104, 0.2) 71.35%
+    );
+}
+    
+.blur-box {
+  background-color: #555;
+  box-shadow: 0 0 5px 10px #555;
+}
+.border-rd{
+  border-radius: 3rem;
+}
+
+
+.btn{
+  background-color: #04382f;
+  color: #f4f4f4;
+  height: 35px;
+  width: 30%;
+  border: 1px solid #04382f ;
+  border-radius: 15px;
+  margin: 5px 0;
+  transition: all 0.7ms ease-in-out;
+
+}
+
+.btn:hover{
+  background-color: #09332c;
+
+}
+
+.h2-color{
+  color: rgba(247, 198, 156, 1);
+
+}
+.p-color{
+  color: rgba(245, 226, 209, 1);
+  font-family: inter;
+}
+
+.paragraph-color{
+  color: #C0C8CC99;
+
+}
+
+.logoTextColor{
+  color:#074A3E
+}
+
+.mtw{
+  border-top: 1px solid #cacaca31;
+}
+
+.backgroundColor{
+  background: linear-gradient(180deg, #F7C69C 20.77%, rgba(247, 167, 98, 0.55) 111.22%);
+
+};
+
+
+/* Optional: Add a media query for larger screens if needed */
+@media (min-width: 768px) {
+  .button {
+    max-width: none; /* Remove the max-width for larger screens */
+  }
+  
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* CSS rules specific to screens between 601 and 900 pixels go here */
+  
+  #menu, #overlay{
+    display: none;
+  }
+}
+
+/* Media Query for screens smaller than or equal to 767 pixels (typical for mobile devices) */
+@media only screen and (max-width: 767px) {
+  /* CSS rules specific to screens smaller than or equal to 767 pixels go here */
+  #nav-links, #socials{
+    display: none;
+  }
+
+  .nav-toggle-width{
+    width: 100vw !important;
+  }
+
+  #nav{
+    position: relative;
+    height: 8vh;
+    width: 95vw;
+    z-index: 30;
+    border-radius: 0%;
+    margin: 0;
+    /* opacity: 0; */
+  }
+
+  #menu{
+    display: block;
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    padding: 5px;
+    justify-content: end;
+    margin-right: 1rem;
+
+
+  }
+  #nav-logo{
+    width: 50% !important;
+    z-index: 30;
+  }
+
+  #nav-logo > h2{
+    padding: 10px !important;
+  }
+
+  .logoTextColor{
+    color: #074A3E;
+    font-weight: bolder;
+    padding: 5px 0 0 0;
+
+  }
+
+  .h1-mobile{
+    margin-top: 3rem;
+  }
+
+  .btn{
+    height: 35px;
+    width: 50%;
+    border-radius: 20px;
+  
+  }
+
+  #overlay{
+    position: absolute;
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100vw;
+    margin-top: 15% !important;
+    background: #0E101C;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;    /* justify-content: space-around; */
+    /* z-index: 20; */
+
+  }
+
+  #overlay > a{
+    /* border: 2px solid red; */
+    padding: 20px 10px;
+  }
+
+}
+
+
+/* Media Query targets screens with a maximum width of 900 pixelss (typical forsmaller laptop screens and larger tablets) */
+@media only screen and (max-width: 900px) {
+  #nav-links, #socials{
+    display: none;
+  }
+
+  .nav-toggle-width{
+    width: 100% !important;
+    margin: 0 !important;;
+  }
+
+  #nav{
+    position: relative;
+    height: 8vh;
+    width: 95vw;
+    z-index: 30;
+    border-radius: 0%;
+    margin: 5px;
+    /* opacity: 0; */
+  }
+
+  #menu{
+    display: block;
+    width: 50%;
+    display: flex;
+    padding: 5px;
+    justify-content: end;
+    margin-right: 1rem;
+
+
+  }
+  #nav-logo{
+    width: 20%;
+    z-index: 30;
+  }
+
+  #nav-logo > h2{
+    padding: 0;
+  }
+
+  #overlay{
+    position: absolute;
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5%;
+    background: #0E101C;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;    /* justify-content: space-around; */
+    /* z-index: 20; */
+
+  }
+
+  #overlay > a{
+    /* border: 2px solid red; */
+    padding: 20px 10px;
+  }
+
+  .card{
+    padding: 0 !important;
+    justify-content: space-between !important;
+  }
+  
+  .card1, .card2{
+    height: 48% !important;
+
+  }
+}
+
+/* Define the spinning animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Apply the animation to an element with the "spin" class */
+.spin {
+  animation: spin 10s linear infinite; /* You can adjust the duration and timing function as needed */
+}
